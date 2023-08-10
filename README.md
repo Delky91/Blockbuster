@@ -2,6 +2,8 @@
 
 Pagina para arriendo de películas, con objetivo de demostrar las relaciones 1 a N en rails usando base de datos postgresql.
 
+Visitala en https://blockbuster-luis-32bcc1da11af.herokuapp.com/
+
 ## Descripción
 
 Esta página muestra como funcionan las relaciones en rails.
