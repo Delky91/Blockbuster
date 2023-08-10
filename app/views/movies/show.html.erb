@@ -1,10 +1,16 @@
-<p style="color: green"><%= notice %></p>
+<div class="container">
 
-<%= render @movie %>
+  <p style="color: green"><%= notice %></p>
 
-<div>
-  <%= link_to "Edit this movie", edit_movie_path(@movie) %> |
-  <%= link_to "Back to movies", movies_path %>
+  <div class="d-flex justify-content-center mb-3">
+    <%= render @movie %>
+  </div>
 
-  <%= button_to "Destroy this movie", @movie, method: :delete %>
+  <div class="text-center d-flex justify-content-center gap-4">
+    <%= link_to "Edit this movie", edit_movie_path(@movie), class:"btn btn-outline-light btn-sm border-0" %>
+    <%= link_to "Back to movies", movies_path, class:"btn btn-outline-light btn-sm border-0" %>
+
+    <%= button_to "Destroy this movie", @movie, method: :delete, class: "btn btn-outline-danger btn-sm" %>
+  </div>
+
 </div>
