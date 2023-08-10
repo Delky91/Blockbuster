@@ -74,3 +74,5 @@ end
 gem "faker", "~> 2.23"
 
 gem 'htmlbeautifier'
+
+gem 'bootstrap'
